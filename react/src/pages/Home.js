@@ -40,6 +40,24 @@ function Home() {
       >
         Ver Usuários
       </Link>
+          <Link
+      to="/signin"
+      style={{
+        padding: "15px 30px",
+        backgroundColor: "#4CAF50",
+        color: "white",
+        fontWeight: "600",
+        fontSize: "1.1rem",
+        borderRadius: "8px",
+        textDecoration: "none",
+        boxShadow: "0 4px 6px rgba(0,0,0,0.1)",
+        transition: "background-color 0.3s ease",
+      }}
+      onMouseEnter={(e) => (e.target.style.backgroundColor = "#45a049")}
+      onMouseLeave={(e) => (e.target.style.backgroundColor = "#4CAF50")}
+    >
+      Login
+    </Link>
     </div>
   );
 }
